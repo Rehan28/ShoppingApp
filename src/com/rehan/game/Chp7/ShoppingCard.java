@@ -19,6 +19,6 @@ public class ShoppingCard {
 
     @Override
     public String toString(){
-        return "ShoppingCard{ products = "+products+'}';
+        return "ShoppingCard = "+products;
     }
 }

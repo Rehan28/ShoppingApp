@@ -15,7 +15,7 @@ public class Demo {
         shoppingCard.addProduct(mouse);
         shoppingCard.addProduct(ecoDot);
 
-        System.out.println("shopping card = "+shoppingCard);
+        System.out.println(shoppingCard);
         int totalPrice = shoppingCard.getTotalPrice();
         System.out.println("Total Price is = "+totalPrice);
     }
